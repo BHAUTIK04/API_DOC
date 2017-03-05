@@ -1,0 +1,178 @@
+{% extends 'base.html' %}
+  {% block content %}
+    <div class = "container-fluid" style = "background-color:white; padding-bottom:20px; padding-top:20px;">
+      <div class = "panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Api Name</h3>
+            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="apiname">API Name</label>
+              <input type="text" class="form-control" id="apiname" placeholder="API Name">
+            </div>
+          </div>
+      </div><hr />
+      <div class = "panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Request Type</h3>
+            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="requesttype">Request Type</label>
+              <input type="text" class="form-control" id="requesttype" placeholder="GET/POST/DELETE/PUT">
+            </div>
+          </div>
+      </div><hr />
+      <div class = "panel panel-primary">
+          <div class="panel-heading">
+              <h3 class="panel-title">Status Codes</h3>
+              <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+          </div>
+          <div class="panel-body">
+            <label for="exampleSelect1">Successful</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>200</option>
+              <option>201</option>
+              <option>202</option>
+              <option>203</option>
+              <option>204</option>
+              <option>205</option>
+              <option>206</option>
+            </select>
+            <label for="exampleSelect1">Redirection</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>300</option>
+              <option>301</option>
+              <option>302</option>
+              <option>303</option>
+              <option>304</option>
+              <option>305</option>
+              <option>306</option>
+              <option>307</option>
+            </select>
+            <label for="exampleSelect1">Client Error</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>400</option>
+              <option>401</option>
+              <option>402</option>
+              <option>403</option>
+              <option>404</option>
+              <option>405</option>
+              <option>406</option>
+              <option>407</option>
+              <option>408</option>
+              <option>409</option>
+              <option>410</option>
+              <option>411</option>
+              <option>412</option>
+              <option>413</option>
+              <option>414</option>
+              <option>415</option>
+              <option>416</option>
+              <option>417</option>
+            </select>
+            <label for="exampleSelect1">Server Error</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>500</option>
+              <option>501</option>
+              <option>502</option>
+              <option>503</option>
+              <option>504</option>
+              <option>505</option>
+            </select>
+
+          </div>
+      </div><hr />
+      <div class = "panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Description</h3>
+            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+        </div>
+        <div class="panel-body"><textarea class="form-control" rows="3" placeholder="API description"></textarea></div>
+      </div><hr />
+      <div class = "panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Request Data</h3>
+            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+        </div>
+
+        <div class="panel-body" id = "no-more-tables">
+            <table class="col-md-12 table-bordered table-striped table-condensed">
+          		  <thead>
+          			    <tr>
+              				<th>Parameter</th>
+              				<th>Value</th>
+                      <th>Description</th>
+          			    </tr>
+          		  </thead>
+                <tbody>
+          			<tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+          		</tbody>
+            </table>
+        </div>
+      </div><hr />
+      <div class = "panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Response Data</h3>
+            <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+        </div>
+        <div class="panel-body" id = "no-more-tables">
+            <table class="col-md-12 table-bordered table-striped table-condensed">
+          		  <thead>
+          			    <tr>
+              				<th>Parameter</th>
+              				<th>Value</th>
+                      <th>Description</th>
+          			    </tr>
+          		  </thead>
+                <tbody>
+          			<tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+                <tr>
+          				<td>AAC</td>
+          				<td>AUSTRALIAN</td>
+          				<td>$1.38</td>
+          			</tr>
+          		</tbody>
+            </table>
+        </div>
+      </div>
+      <div>
+        <button class = "btn btn-success">SUBMIT</button>
+      </div>
+    </div>
+  {% endblock %}
